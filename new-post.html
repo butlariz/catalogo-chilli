@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastrar novo produto - Chilli Beans Corporativo </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles-new-post.css" />
+</head>
+<body class="site">
+    <nav class="nav">
+        <div class="nav-wrapper">
+            <div class="nav-item">
+                <i class="material-icons md-white">search</i>
+            </div>
+            <div class="nav-item">
+                <img src="logo-small.jpeg" />
+            </div>
+            <div class="nav-item">
+                <i class="material-icons md-white">shopping_cart</i>
+            </div>
+        </div>
+    </nav>
+    <h2> Novo produto </h2>
+
+    <main class="new-post-page">
+        <div class="wrapper-medium">
+            <form action="post-list.html">
+                <div class="product-image-wrapper">
+                    <i class="material-icons">add_photo_alternate</i>
+                </div>
+                <div class="product-input-wrapper">
+                    <input class="product-input" type="text" name="product-name" placeholder="Nome do produto" />
+                </div>
+                <div class="product-input-wrapper">
+                    <input class="product-input" type="number" name="quantity" placeholder="Quantidade" />
+                </div>
+                <div class="product-input-wrapper">
+                    <input class="product-input" type="text" name="product-value" placeholder="Valor" />
+                </div>
+                <div class="product-input-wrapper">
+                    <input class="product-input" type="text" name="collection" placeholder="Coleção" />
+                </div>
+                <div class="product-input-wrapper">
+                    <input class="product-input" type="text" name="ref" placeholder="Código de referencia" />
+                </div>
+                <button class="button-primary"> salvar </button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+.product-item-page {
+    display: flex;
+    justify-content: center;
+}
+
+.site-navigation {
+    margin: 30px 0;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    font-size: 8pt;
+}
+
+.product-item {
+    background-color: #fff;
+    margin-bottom: 6px;
+    padding: 20px;
+    text-align: center;
+}
+

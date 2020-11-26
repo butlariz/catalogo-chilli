@@ -1,0 +1,42 @@
+/* home page */
+
+.home-page {
+    display: flex;
+    justify-content: center;
+}
+
+.featured {
+    margin-top: 40px;
+}
+
+.featured img {
+    max-width: 100%;
+}
+
+.featured-item:first-child {
+    margin-bottom: 30px;
+}
+
+.wrap-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.collection-item {
+    width: calc(50% - 10px);
+    margin-bottom: 30px;
+}
+
+.collection-item img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.collection-title {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: sans-serif
+}
